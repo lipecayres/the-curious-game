@@ -8,8 +8,3 @@ labels.forEach(label => {
     
 })
 
-
-function submitForm() {
-    document.getElementById("myForm").submit(); // Submit the form
-    window.location.href = "view.php"; // Redirect to the second page
-  }
