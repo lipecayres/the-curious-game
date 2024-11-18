@@ -20,7 +20,7 @@ class Database
   // checking connection status
   public function connect_db()
   {
-    $this->connection = mysqli_connect('localhost', 'root', '', 'curiousgame');
+    $this->connection = mysqli_connect('localhost', 'root', '', 'visitors_register_db');
     if (mysqli_connect_error()) {
       die("Database Connection Failed" . mysqli_connect_error() . mysqli_connect_error());
     }
