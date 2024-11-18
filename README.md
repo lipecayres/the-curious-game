@@ -3,6 +3,8 @@
 **The Curious Game** is a fun and interactive web-based game designed to challenge your curiosity. 
 It offers an engaging user experience with responsive gameplay.
 
+Access here: http://www.curiousgame.wuaze.com/
+
 ## Table of Contents
 
 - [Features](#features)
