@@ -43,9 +43,15 @@ nav img {
 
 .container{
     background-color: rgba(0,0,0,0.4);
-    padding: 20px 40px;
+    padding: 2rem 4rem;
     border-radius: 5px;
-    margin: 20px;
+    margin: 1rem;
+
+}
+
+input::placeholder {
+    color: white;
+    opacity: 1; /* Ensures the color is not faded */
 }
 
 .container h1{
@@ -88,6 +94,18 @@ nav img {
     color: black;
 }
 
+/* form */
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form {
+    align-items: center;
+}
 
 .form-control{
     position: relative;
@@ -151,6 +169,30 @@ footer a{
     color: aquamarine;
 }
 
+/* table */
 .table {
+    width: 100%;
+    font-size: 1.4rem;
+    border-collapse: collapse;
     color: #fff;
+    text-align: center;
+}
+
+/* Header row styles */
+.table th {
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+    color: #fff;
+
+}
+
+/* Table row styles */
+.table td {
+    padding: 0.4rem;
+}
+
+/* Table hover effect */
+.table .hover-table:hover {
+    transform: scale(105%);
+    font-weight: bold;
 }
