@@ -5,15 +5,15 @@ include("./includes/top-bar.php");
 <div class="container">
     <h1>Are you curious? </h1>
     <h2>Register to discover who are curious</h2>
-
+    
     <form action="" method="POST" id="myForm" autocomplete="off">
         <div class="form-control">
-            <input type="text" name="fname" required>
-            <label for="fname"> Name </label>
+            <input type="text" name="fname" placeholder="Name" required>
+            <label for="fname">  </label>
         </div>
         <div class="form-control">
-            <input type="text" name="city" required>
-            <label for="city"> City </label>
+            <input type="text" name="city" placeholder="City" required>
+            <label for="city"> </label>
         </div>
         <button class="btn" onclick="submitForm()">Click to check</button>
     </form>
